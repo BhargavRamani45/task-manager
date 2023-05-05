@@ -89,7 +89,7 @@ const TaskReport = () => {
         <option value="">All</option>
         <option value="TO DO">To Do</option>
         <option value="IN PROCESS">IN PROCESS</option>
-        <option value="IN PROCESS">Done</option>
+        <option value="DONE">DONE</option>
       </SearchDropdown>
       {loading && loading ? (
         <div style={{ textAlign: "center" }}>Loading...</div>
